@@ -1,0 +1,45 @@
+{
+  "name": "react-tailwind-dropzone",
+  "version": "1.0.1",
+  "description": "A highly customizable React file dropzone component",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "dropzone",
+    "file",
+    "upload",
+    "tailwind"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
