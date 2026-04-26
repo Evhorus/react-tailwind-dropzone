@@ -1,6 +1,6 @@
 {
-  "name": "react-tailwind-dropzone",
-  "version": "1.0.2",
+  "name": "react-file-dropzone",
+  "version": "1.0.0",
   "description": "A highly customizable React file dropzone component",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
