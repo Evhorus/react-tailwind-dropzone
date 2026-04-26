@@ -2,6 +2,14 @@
   "name": "react-dropzone-test-2026",
   "version": "1.0.0",
   "description": "A highly customizable React file dropzone component",
+  "homepage": "https://github.com/Evhorus/react-tailwind-dropzone#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evhorus/react-tailwind-dropzone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Evhorus/react-tailwind-dropzone/issues"
+  },
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -25,8 +33,11 @@
     "dropzone",
     "file",
     "upload",
-    "tailwind"
+    "tailwind",
+    "drag-and-drop",
+    "file-upload"
   ],
+  "author": "Evhorus",
   "author": "",
   "license": "MIT",
   "peerDependencies": {
